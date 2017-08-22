@@ -1,0 +1,1 @@
+"[{\"Company\":\"ABC\",\"total_meetings_7day\":3,\"avg_meeting_sec\":4862.6153846154,\"avg_meeting_mins\":81.0435897436,\"country\":\"UNITED STATES\"},{\"Company\":\"BCD\",\"total_meetings_7day\":2,\"avg_meeting_sec\":1483.2857142857,\"avg_meeting_mins\":24.7214285714,\"country\":\"UNITED STATES\"}]"

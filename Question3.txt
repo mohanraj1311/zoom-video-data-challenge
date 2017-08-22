@@ -1,0 +1,63 @@
+Question 3
+==========
+
+1. Don't know much about SFDC api calls.
+Assuming its something similar to amazon api calls.
+In case of Amazon APIs, the cost incurred is directly proportional to the
+no. of api calls made.
+So, we must ensure that we make minimum number of calls.
+To have minimum number of calls, we batch together multiple smaller requests, and make 1 big request.
+This helps in reducing the calls and costs a lot lesser had we considered making
+single calls.
+
+
+2. Best practices for data processing, cleansing and storage.
+-------------------------------------------------------------
+
+* The pipeline must include a staging area, which holds together the output of
+all the transformation scripts before the final storage.
+
+* The pipeline should be such that the failure of 1 script or transformation should not affect
+other independent transformation scripts.
+
+
+* Before the final storage and after the staging, there should be a testing process
+to ensure data quality. These can be written using mock objects.
+
+* There should be scripts to reverse transformation as well so that we ensure no data
+is lost.
+
+* Data Cleansing step usually comes before the transformation.
+We should have adequate testing to ensure data quality before transformation and
+after cleansing.
+
+* Its beneficial to use tools like Airflow which can pin-point an error or delay in
+processing due to a single script.
+
+* While defining the storage tables, we should define the tables keeping in mind
+the actual use cases of the tables.
+If a column in a table is frequently aggregated upon then its better to define the Table
+as columnar storage.
+If the table has a use case of frequent select * , then its better to define the table as
+row storage.
+Also, try preventing a table defined with table lock.
+Row lock is always better if locking is required.
+
+* Joining multiple tables should be always done on columns which are either primary keys
+or distribution keys. This ensures quicker completion of sql scripts.
+
+3. Best practices for fault tolerant data ecosystems.
+---------------------------------------------------------
+
+* Run the cluster in master-slave mode to ensure data availability.
+If master goes down , the control should auto-transfer to the slave without the
+knowledge of end-user or other services involved.
+
+* Ensure adequate data replication techniques like sharding.
+
+* Develop services as micro-services which can be maximum independent from one another and
+can be quickly replaced or tested.
+
+* If the critical data is stored in cloud, its wise to store the data in two separate vendors
+simultaneously say AWS and Azure to ensure complete availability.
+This might be expensive but will pay off if any of the cloud vendors go down.

@@ -1,0 +1,204 @@
+[{
+		"meetingid": "7f42225584",
+		"userid": "9FE1DE67F2",
+		"country": "UNITED STATES",
+		"city": "Baltimore",
+		"jointime": "2017-04-01 00:00:01",
+		"leavetime": "2017-04-01 03:00:22",
+		"is_host": true,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225584",
+		"userid": "DEAB0BEF18",
+		"country": "UNITED STATES",
+		"city": "Baltimore",
+		"jointime": "2017-04-01 00:00:04",
+		"leavetime": "2017-04-01 03:00:21",
+		"is_host": false,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225584",
+		"userid": "AD1BB4E656",
+		"country": "UNITED STATES",
+		"city": "Boise City",
+		"jointime": "2017-04-01 00:00:03",
+		"leavetime": "2017-04-01 03:00:19",
+		"is_host": false,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "5494d16309",
+		"userid": "2C1A95AC8C",
+		"country": "UNITED STATES",
+		"city": "San Bernardino",
+		"jointime": "2017-04-01 00:01:42",
+		"leavetime": "2017-04-01 00:13:07",
+		"is_host": false,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "5494d16309",
+		"userid": "0B781FA334",
+		"country": "UNITED STATES",
+		"city": "Akron",
+		"jointime": "2017-04-01 00:01:42",
+		"leavetime": "2017-04-01 00:13:42",
+		"is_host": true,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "5494d16309",
+		"userid": "C314D5772E",
+		"country": "UNITED STATES",
+		"city": "Cedar Rapids",
+		"jointime": "2017-04-01 00:01:45",
+		"leavetime": "2017-04-01 00:13:43",
+		"is_host": false,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "5494d16309",
+		"userid": "5AA2C0BF55",
+		"country": "UNITED STATES",
+		"city": "Buffalo",
+		"jointime": "2017-04-01 00:01:45",
+		"leavetime": "2017-04-01 00:13:43",
+		"is_host": false,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "7f42225585",
+		"userid": "9FE1DE67F2",
+		"country": "UNITED STATES",
+		"city": "Baltimore",
+		"jointime": "2017-04-02 14:30:01",
+		"leavetime": "2017-04-02 15:00:22",
+		"is_host": false,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225585",
+		"userid": "DEAB0BEF18",
+		"country": "UNITED STATES",
+		"city": "Baltimore",
+		"jointime": "2017-04-02 14:30:04",
+		"leavetime": "2017-04-02 15:00:21",
+		"is_host": true,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225585",
+		"userid": "AD1BB4E656",
+		"country": "UNITED STATES",
+		"city": "Boise City",
+		"jointime": "2017-04-02 14:30:03",
+		"leavetime": "2017-04-02 15:00:19",
+		"is_host": false,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225585",
+		"userid": "C8D689AC1F",
+		"country": "UNITED STATES",
+		"city": "San Bernardino",
+		"jointime": "2017-04-02 14:40:01",
+		"leavetime": "2017-04-02 15:00:30",
+		"is_host": false,
+		"Company": "ABC"
+	},
+
+
+
+	{
+		"meetingid": "5494d16308",
+		"userid": "0B781FA334",
+		"country": "UNITED STATES",
+		"city": "Akron",
+		"jointime": "2017-04-03 10:01:00",
+		"leavetime": "2017-04-03 10:13:12",
+		"is_host": true,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "5494d16308",
+		"userid": "C314D5772E",
+		"country": "UNITED STATES",
+		"city": "Cedar Rapids",
+		"jointime": "2017-04-03 10:01:00",
+		"leavetime": "2017-04-03 10:59:12",
+		"is_host": true,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "5494d16308",
+		"userid": "5AA2C0BF55",
+		"country": "UNITED STATES",
+		"city": "Buffalo",
+		"jointime": "2017-04-03 10:04:00",
+		"leavetime": "2017-04-03 10:59:18",
+		"is_host": false,
+		"Company": "BCD"
+	},
+	{
+		"meetingid": "7f42225586",
+		"userid": "9FE1DE67F2",
+		"country": "UNITED STATES",
+		"city": "Baltimore",
+		"jointime": "2017-04-04 17:00:01",
+		"leavetime": "2017-04-04 17:30:22",
+		"is_host": true,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225586",
+		"userid": "DEAB0BEF18",
+		"country": "UNITED STATES",
+		"city": "Baltimore",
+		"jointime": "2017-04-04 17:00:03",
+		"leavetime": "2017-04-04 17:50:28",
+		"is_host": true,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225586",
+		"userid": "AD1BB4E656",
+		"country": "UNITED STATES",
+		"city": "Boise City",
+		"jointime": "2017-04-04 17:00:05",
+		"leavetime": "2017-04-04 18:30:28",
+		"is_host": true,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225586",
+		"userid": "C8D689AC1F",
+		"country": "UNITED STATES",
+		"city": "San Bernardino",
+		"jointime": "2017-04-04 17:00:05",
+		"leavetime": "2017-04-04 18:30:25",
+		"is_host": false,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225586",
+		"userid": "237A51051D",
+		"country": "UNITED STATES",
+		"city": "Pittsburgh",
+		"jointime": "2017-04-04 17:00:05",
+		"leavetime": "2017-04-04 18:30:01",
+		"is_host": false,
+		"Company": "ABC"
+	},
+	{
+		"meetingid": "7f42225586",
+		"userid": "358D78A40D",
+		"country": "UNITED STATES",
+		"city": "Glendale",
+		"jointime": "2017-04-04 17:40:09",
+		"leavetime": "2017-04-04 18:30:01",
+		"is_host": false,
+		"Company": "ABC"
+	}
+]
